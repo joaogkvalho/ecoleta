@@ -6,8 +6,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
         <title>Ecoleta</title>
+
         <link rel="stylesheet" href="styles/main.css">
         <link rel="stylesheet" href="styles/home.css">
+        <link rel="stylesheet" href="styles/modal.css">
+
         <link rel="stylesheet" href="styles/responsive.css">
     </head>
 
@@ -31,5 +34,25 @@
                 </main>
             </div>
         </div>
+
+        <div class="modal hide">
+            <div class="content">
+                <header>
+                    <h1>Pontos de Coleta</h1>
+                    <a href="#">Fechar</a>
+                </header>
+                <form action="">
+                    <label for="search">Cidade</label>
+                    <div class="form field">
+                        <input type="text" name="search" placeholder="Pesquise por cidade">
+                        <button>
+                            <img src="./assets/search.svg" alt="Buscar">
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <script src="scripts/index.js"></script>
     </body>
 </html>
